@@ -218,3 +218,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Go ---
+*.exe
+*.test
+*.out
+/bin/
+vendor/
+
+# --- Secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Business data (never commit) ---
+data/raw/
+data/private/
+*.xlsx
+*.xls
+supplier_files/
+
+# --- Database dumps and backups ---
+*.sql
+*.sql.gz
+*.dump
+backups/
+
+# --- WordPress copy ---
+wordpress/
+wp-content/uploads/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
